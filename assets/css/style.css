@@ -39,6 +39,10 @@ header .nav-container nav a {
     padding: 0 14px;
 }
 
+header .nav-container nav a:hover {
+    color: #4aaaa5;
+}
+
 header .nav-container nav a:last-child {
     border: none;
     padding-right: 0;
@@ -72,6 +76,10 @@ header .nav-container nav a:last-child {
     display: inline-block;
     width: 30%;
     margin: 0 20px 30px 0;
+}
+
+.content .portfolio-link:hover {
+    opacity: 0.75;
 }
 
 .content .portfolio-link img {
